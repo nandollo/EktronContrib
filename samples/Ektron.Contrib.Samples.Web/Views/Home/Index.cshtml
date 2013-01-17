@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Session["UTCNow"]
+        
+        
+        @{
+            var now = ((DateTime) Session["UtcNow"]).ToLongTimeString() + " ." + ((DateTime) Session["UtcNow"]).Millisecond;
+        }
+        
+        @now;
+    </div>
+</body>
+</html>
