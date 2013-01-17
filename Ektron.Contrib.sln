@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ektron.Contrib.Caching.Redis", "src\Ektron.Contrib.Caching.Redis\Ektron.Contrib.Caching.Redis.csproj", "{FC6FB36C-1066-450E-90DA-5A42105C6C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ektron.Contrib.Session.Redis", "src\Ektron.Contrib.Session.Redis\Ektron.Contrib.Session.Redis.csproj", "{DFD3B20A-659F-4977-ABDE-433036C61211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ektron.Contrib.Samples.Web", "samples\Ektron.Contrib.Samples.Web\Ektron.Contrib.Samples.Web.csproj", "{6887324C-2FB1-4B00-BDB3-7B59DC5ACFB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9FED2870-4A9A-443F-8516-963D07C499DB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ektron.Contrib.Caching.Common", "src\Ektron.Contrib.Caching.Common\Ektron.Contrib.Caching.Common.csproj", "{4B5BFDD2-9AAE-4321-8A93-77EFA3BF82D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schema", "schema", "{6FBF8D0E-B477-4151-8232-B480D0108B66}"
+	ProjectSection(SolutionItems) = preProject
+		src\Ektron.Contrib.Caching.Common\redis.xsd = src\Ektron.Contrib.Caching.Common\redis.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6FB36C-1066-450E-90DA-5A42105C6C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6FB36C-1066-450E-90DA-5A42105C6C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6FB36C-1066-450E-90DA-5A42105C6C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6FB36C-1066-450E-90DA-5A42105C6C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD3B20A-659F-4977-ABDE-433036C61211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD3B20A-659F-4977-ABDE-433036C61211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD3B20A-659F-4977-ABDE-433036C61211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD3B20A-659F-4977-ABDE-433036C61211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6887324C-2FB1-4B00-BDB3-7B59DC5ACFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6887324C-2FB1-4B00-BDB3-7B59DC5ACFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6887324C-2FB1-4B00-BDB3-7B59DC5ACFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6887324C-2FB1-4B00-BDB3-7B59DC5ACFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5BFDD2-9AAE-4321-8A93-77EFA3BF82D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5BFDD2-9AAE-4321-8A93-77EFA3BF82D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5BFDD2-9AAE-4321-8A93-77EFA3BF82D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5BFDD2-9AAE-4321-8A93-77EFA3BF82D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
