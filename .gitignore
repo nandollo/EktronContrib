@@ -1,10 +1,6 @@
 *resharper.user
 *.sln.DotSettings
 lib/
-nuget/
-packages/
-packages/
-.nuget/
 
 [Dd]ebug/
 [Rr]elease/
