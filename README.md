@@ -36,9 +36,9 @@ Download the code and review the sample site. It includes an example of each imp
  * Follow [@billcava](http://twitter.com/billcava)
 
 ## Future Roadmap
-1. AppFabic
-2. Amazon Elasticache
-3. Memcache
+1. Memcache
+2. AppFabic
+3. Amazon Elasticache
 4. Microsoft Azure
 
 
